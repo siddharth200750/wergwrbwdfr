@@ -8,7 +8,7 @@ class Ground{
        this.height = 15;
        World.add(world,this.body);
     };
-    display(){
+    display(){ 
         var pos =this.body.position;
         rectMode(CENTER);
         fill("yellow");
