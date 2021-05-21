@@ -7,7 +7,7 @@ var ground,ball;
 var binImg,bin;
 
 function preload(){
-    binImg = loadImage("dustbingreen.png");
+    binImg = loadImage("./dustbingreen.png");
 }
 function setup(){
     var canvas = createCanvas(1200,600);
